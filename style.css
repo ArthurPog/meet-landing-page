@@ -323,6 +323,13 @@ footer button span {
     grid-template-columns: auto auto auto auto;
     gap: .75rem;
   }
+
+  footer {
+    background: url(./assets/tablet/image-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -396,8 +403,19 @@ footer button span {
     margin-top: 5rem;
   }
 
+  footer {
+    background: url(./assets/desktop/image-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
   footer button {
     margin-top: unset;
+  }
+
+  .footer-teal-background {
+    padding: 7.25rem 10rem 6.5rem;
   }
 
   .footer-padding {
