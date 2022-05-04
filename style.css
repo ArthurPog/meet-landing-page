@@ -34,9 +34,9 @@
   --p-font-size-l-m: 1.125rem;
   --p-line-height-l-m-s: 1.625rem;
   --p-font-size-s: 1rem;
-  --h3-font-size: 1rem;
+  --overline-font-size: 1rem;
   --heading-font-weight: 900;
-  --h3-letter-spacing: 0.25rem;
+  --overline-letter-spacing: 0.25rem;
  }
 
 * {
@@ -57,12 +57,12 @@ h2 {
   line-height: var(--h2-line-height-s);
 }
 
-h3 {
+.overline {
   margin: 0;
   font-weight: var(--heading-font-weight);
   text-transform: uppercase;
-  font-size: var(--h3-font-size);
-  letter-spacing: var(--h3-letter-spacing);
+  font-size: var(--overline-font-size);
+  letter-spacing: var(--overline-letter-spacing);
   color: var(--teal);
 }
 
@@ -115,6 +115,14 @@ main {
   padding: 0 1.5rem;
 }
 
+.desktop-header {
+  margin: 0 -2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .product-details {
   padding: 0 1.5rem;
   text-align: center;
@@ -129,7 +137,8 @@ main {
 }
 
 .intro-padding {
-  max-width: 460px;
+  max-width: 80%;
+  margin-top: 3rem;
 }
 
 .p-main {
@@ -213,7 +222,7 @@ button:active {
 }
 
 footer {
-  margin: 0 1.5rem 1.5rem;
+  margin: 0;
   text-align: center;
   color: var(--white);
   background: url(./assets/mobile/image-footer.jpg);
@@ -314,8 +323,8 @@ footer button span {
   }
 
   .intro-padding {
-    max-width: 540px;
-    width: 100%;
+    max-width: 60%;
+    margin-top: 4.5rem;
   }
 
   .images {
@@ -359,13 +368,14 @@ footer button span {
   .desktop-header {
     margin: 0 -40rem 0;
     display: flex;
+    flex-direction: unset;
     gap: 5.5rem;
     justify-content: space-between;
     align-items: center;
   }
 
   .intro-padding {
-    min-width: 540px;
+    max-width: 540px;
     width: 100%;
   }
 
