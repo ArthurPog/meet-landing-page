@@ -324,14 +324,14 @@ the background picture we introduced in footer */
 
 footer h2 {
   margin: 0;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .footer-p {
   font-size: var(--p-font-size-l-m);
   color: var(--white);
   margin-top: 2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .footer-button-container {
