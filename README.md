@@ -1,7 +1,7 @@
 # My ninth project and solution to the meet landing page challenge over at [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 ## Table of contents
-- [The challenge](#assignment)
+- [The challenge](#the-challenge)
 - [Goals](#goals)
 - [Assignment design](#design)
 - [My solution with live page link](#solution)
@@ -10,7 +10,7 @@
 - [My process](#my-process)
 
 
-## <a name="assignment"></a>The challenge
+## The challenge
 
 My challenge is to build out this landing page and get it looking as close to the design as possible.
 
