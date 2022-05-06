@@ -6,7 +6,7 @@
 - [Assignment design](#design)
 - [My solution with live page link](#solution)
 - [What I learned](#what-i-learned)
-- [Tools used](#tools)
+- [Tools used](#tools-used)
 - [My process](#my-process)
 
 
