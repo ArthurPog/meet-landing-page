@@ -37,7 +37,7 @@ I used this opportunity to further practice clean coding, CSS grids, CSS variabl
 
 ![](./assets/desktop-design.png)
 
-## <a name="#solution"></a>This is my solution
+## <a id="#solution"></a>This is my solution
 
 [Click here to see the live page](https://arthurpog.github.io/meet-landing-page/)
 
