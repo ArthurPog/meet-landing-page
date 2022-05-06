@@ -3,8 +3,8 @@
 ## Table of contents
 - [The challenge](#the-challenge)
 - [Goals](#goals)
-- [Assignment design](#design)
-- [My solution with live page link](#solution)
+- [Assignment design](#this-was-the-design)
+- [My solution with live page link](#this-is-my-solution)
 - [What I learned](#what-i-learned)
 - [Tools used](#tools-used)
 - [My process](#my-process)
@@ -21,7 +21,7 @@ My users should be able to:
 View the optimal layout depending on their device's screen size
 See hover states for interactive elements
 
-## <a name="#goals"></a>Goals
+## Goals
 
 My goals for this project were, apart from the increased difficulty when compared to the projects that I've tackled before, to:
 
@@ -33,11 +33,11 @@ My goals for this project were, apart from the increased difficulty when compare
 
 I used this opportunity to further practice clean coding, CSS grids, CSS variables and most importantly a mobile first approach meaning I started coding the CSS by coding the style for the mobile version first then moving up to the desktop design with conditional CSS.
 
-## <a name="#design"></a>This was the design
+## This was the design
 
 ![](./assets/desktop-design.png)
 
-## <a id="#solution"></a>This is my solution
+## This is my solution
 
 [Click here to see the live page](https://arthurpog.github.io/meet-landing-page/)
 
@@ -62,3 +62,4 @@ And one last thing regarding learning from the best. Vanza's comment lead me to 
   - HTML to CSS Autocompletion - Quickly autocomplete classes and ID names in CSS based on what I created in HTML
   - Live Preview - Right-clicking the index.html offers to view a live and constantly auto-updated version of the web-page for a quick live view of one's work
 - Greenshot - A fantastic little open-source tool that is like a screenshot on steroids. After pressing PrtScrn it lets one exactly measure the width and height of an element on a screen basically making it very easy to calculate how big certain margins, paddings, containers and font-sizes are in a design without having access to a wire-frame.
+- Microsoft PowerToys - A nifty little program from Microsoft adding a *plethora* of UI functionality to Windows. What I use most for coding is CTRL+WIN+C it brings up a colour picker, and when I hover over something or click something it shows me the HEX, RGB, HSL and CMYK values of the colour that can instantly be copied to the clipboard and in addition to this it keeps a history of all the colours picked. Amazing!
