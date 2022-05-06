@@ -1,5 +1,5 @@
 /* Bringing in fonts */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
 
 /* General declarations: fonts, then colours,
 font-sizes and line-heights as variables */
@@ -42,15 +42,6 @@ font-sizes and line-heights as variables */
   --overline-letter-spacing: 0.25rem;
  }
 
-/* Setting the general font weight at 500 because
-I also brought in the 400 weight which I was not
-supposed to and it defaults to 400 (which is
-always the default/regular weight of every font) */
-
-* {
-  font-weight: 500;
-}
-
 /* For simple navigation using a keyboard I added
 this outline-on-focus effect. */
 
@@ -59,7 +50,7 @@ this outline-on-focus effect. */
   outline-offset: 4px;
 }
 
-/* I'm starting with a mobile first approach,
+/* Mobile first approach,
 so I'll be styling the mobile design first then
 move on. These first few lines set the type
 for all the different text categories. */
@@ -94,10 +85,6 @@ p {
   color: #87879D;
 }
 
-/* I usually give the body a margin 0 to stop
-the horizontal scroll bar from appearing after
-I center everything on the page. */
-
 body {
   margin: 0;
   background: var(--white);
@@ -105,10 +92,7 @@ body {
 }
 
 /* Logo centering and top margin. I'll be giving
-elements only top margins if I can help it, just
-for consistency's sake. The logo is an img which
-is treated like an inline element. So a
-text-align should suffice.*/
+elements only top margins if I can help it.*/
 
 header {
   margin-top: 3rem;
@@ -116,13 +100,10 @@ header {
   transition: .3s ease-out;
 }
 
-/* Hero image. A max-width of 820px so it can be
-used within the tablet layout as well. Width
-100% to force it to fill the container it is in
-and resize with it. Then, to keep the background
-container's height the same as the height of the
-image used, I used a little trick by the user
-called @Hasanavi. He set thee background size
+/* To keep the background container's height the
+same as the height of the image used, I used
+a little trick by a user called @Hasanavi
+from Stack Overflow. He set the background size
 to contain the image fully (contain or cover).
 Then made the container height 0. Which might
 seem weird butthen he set a padding-top based
@@ -148,11 +129,6 @@ In my case (303 / 820 * 100)
   padding-top: 36.952%; 
 }
 
-/* Using grid for the first time to center
-everything within the main element, and also
-using text-align to center all the inline
-text. in containers */
-
 main {
   display: grid;
   place-items: center;
@@ -161,16 +137,9 @@ main {
   padding: 0 1.5rem;
 }
 
-/* Hiding the hero image for the desktop for
-the mobile. */
-
 .hero-desktop {
   display: none;
 }
-
-/* I put the main headline and paragraph
-with buttons into the same place where the
-dektop hero image is located */
 
 .call-to-action {
   margin: 0 -2rem 0;
@@ -193,10 +162,6 @@ dektop hero image is located */
   margin-top: 2rem;
 }
 
-/* Product-details contains both of the cool
-looking dividers, photos and second paragraph
-and headline */
-
 .product-details {
   padding: 0 1.5rem;
   text-align: center;
@@ -204,15 +169,11 @@ and headline */
   place-items: center;
 }
 
-/* Contains the pictures and first divider */
-
 .intro {
   display: grid;
   place-items: center;
   max-width: 1110px;
 }
-
-/* Buttons */
 
 .buttons {
   margin-top: 2rem;
@@ -266,8 +227,6 @@ and headline */
   color: var(--teal-2);
 }
 
-/* These are the  4 images in the middle*/
-
 .images {
   margin-top: 6.5rem;
   display: grid;
@@ -280,8 +239,6 @@ and headline */
   border-radius: .5rem;
   width: 100%;
 }
-
-/* The second section with the h2 headline */
 
 .features {
   margin-top: 4rem;
@@ -296,8 +253,6 @@ and headline */
   margin-top: 1.5rem;
 }
 
-/* Footer section */
-
 footer {
   margin: 0;
   text-align: center;
@@ -307,9 +262,6 @@ footer {
   background-repeat: no-repeat;
   background-position: top center;
 }
-
-/* The teal background with 75% opacity over
-the background picture we introduced in footer */
 
 .footer-teal-background {
   display: grid;
@@ -324,14 +276,14 @@ the background picture we introduced in footer */
 
 footer h2 {
   margin: 0;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .footer-p {
   font-size: var(--p-font-size-l-m);
   color: var(--white);
   margin-top: 2rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .footer-button-container {
@@ -343,7 +295,7 @@ footer .button span {
   font-weight: 900;
 }
 
-/* This is where I make the fancy dividers */
+/* Dividers */
 
 .divider-container {
   position: relative;
@@ -389,7 +341,7 @@ footer .button span {
 
 /* Tablet version changes */
 
-@media (min-width: 550px) {
+@media (min-width: 34.375em) {
   h1 {
   font-size: var(--h1-font-size-m);
   line-height: var(--h1-line-height-m);
@@ -443,7 +395,7 @@ assistive technologies, I decided to save the hassle
 and just put the image into the HTML and hide it from
 ARIA instead */
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
   h1 {
     font-size: var(--h1-font-size-l);
     line-height: var(--h1-line-height-l);
