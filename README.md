@@ -55,7 +55,7 @@ Also courtesy of [Vanza Setia](https://github.com/vanzasetia) and his code I lea
 
 And one last thing regarding learning from the best. Vanza's comment lead me to read up more in-depth regarding the use of anchors and buttons and I realized the destinction between them better. Buttons should be used when carrying out a function within the site, like an in-page calculator, basically things using JavaScript and anchors should be used to navigate around and they often lead to downloads, external links and so on.
 
-## <a name="#tools"></a>Tools used
+## Tools used
 
 - VS Code with a few extensions:
   - CSS Peek - To immediately see what certain variables that I set mean and their values by holding CRTL + hovering over the value
