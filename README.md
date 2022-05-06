@@ -1,20 +1,23 @@
 # My ninth project and solution to the meet landing page challenge over at [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 ## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#assignment)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- [The challenge](#assignment)
+- [Goals](#goals)
+- [Assignment design](#screenshot)
+- [My solution](#screenshot)
+- [What I learned](#what-i-learned)
+- [Tools used](#tools)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
+## Goals
 
+My goals for this project was, apart from the increased difficulty when compared to the projects that I've tackled before, to practice:
+
+- [x] Use a mobile first approach for the first time
+- [x] Cleaner coding
+- [ ]  Commenting my code
+- [x]  CSS Variables
+- [x]  Use CSS grid
 
 I used this opportunity to further practice clean coding, CSS grids, CSS variables and most importantly a mobile first approach meaning I started coding the CSS by coding the mobile first then moving up to the desktop design with conditional CSS.
 
@@ -29,9 +32,8 @@ I used this opportunity to further practice clean coding, CSS grids, CSS variabl
 ![](./assets/my-solution.png)
 
 
-## Overview
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?
+
 
 ## <a name="assignment"></a>This is the Heading
 
