@@ -53,6 +53,12 @@ Courtesy of [Vanza Setia](https://github.com/vanzasetia) and his advice I learne
 
 Also courtesy of [Vanza Setia](https://github.com/vanzasetia) and his code I learned that there are such things as `::before` and `::after` pseudo-elements and I'm looking forward to using them in my future project.
 
-And one last thing regarding learning from the best. Vanza's comment lead me to read up more in-depth regarding the use of anchors and buttons and I realized the destinction between them better. Buttons should be used when carrying out a function within the site, like an in-page calculator and anchors should be used to navigate around and they often lead to downloads, external links and so on.
+And one last thing regarding learning from the best. Vanza's comment lead me to read up more in-depth regarding the use of anchors and buttons and I realized the destinction between them better. Buttons should be used when carrying out a function within the site, like an in-page calculator, basically things using JavaScript and anchors should be used to navigate around and they often lead to downloads, external links and so on.
 
 ## <a name="#tools"></a>Tools used
+
+- VS Code with a few extensions:
+  - CSS Peek - To immediately see what certain variables that I set mean and their values by holding CRTL + hovering over the value
+  - HTML to CSS Autocompletion - Quickly autocomplete classes and ID names in CSS based on what I created in HTML
+  - Live Preview - Right-clicking the index.html offers to view a live and constantly auto-updated version of the web-page for a quick live view of one's work
+- Greenshot - A fantastic little open-source tool that is like a screenshot on steroids. After pressing PrtScrn it lets one exactly measure the width and height of an element on a screen basically making it very easy to calculate how big certain margins, paddings, containers and font-sizes are in a design without having access to a wire-frame.
