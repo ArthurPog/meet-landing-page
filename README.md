@@ -3,8 +3,8 @@
 ## Table of contents
 - [The challenge](#assignment)
 - [Goals](#goals)
-- [Assignment design](#screenshot)
-- [My solution](#screenshot)
+- [Assignment design](#design)
+- [My solution with live page link](#solution)
 - [What I learned](#what-i-learned)
 - [Tools used](#tools)
 - [My process](#my-process)
@@ -12,7 +12,16 @@
 
 ## <a name="assignment"></a>The challenge
 
-## Goals
+My challenge is to build out this landing page and get it looking as close to the design as possible.
+
+I can use any tools I like to help me complete the challenge. So if I've got something I'd like to practice, I can feel free to give it a go.
+
+My users should be able to:
+
+View the optimal layout depending on their device's screen size
+See hover states for interactive elements
+
+## <a name="#goals"></a>Goals
 
 My goals for this project were, apart from the increased difficulty when compared to the projects that I've tackled before, to:
 
@@ -24,20 +33,26 @@ My goals for this project were, apart from the increased difficulty when compare
 
 I used this opportunity to further practice clean coding, CSS grids, CSS variables and most importantly a mobile first approach meaning I started coding the CSS by coding the style for the mobile version first then moving up to the desktop design with conditional CSS.
 
-## This was the assignment
+## <a name="#design"></a>This was the design
 
 ![](./assets/desktop-design.png)
 
-## This is my solution
+## <a name="#solution"></a>This is my solution
 
 [Click here to see the live page](https://arthurpog.github.io/meet-landing-page/)
 
 ![](./assets/my-solution.png)
 
+## <a name="#what-i-learned"></a>What I learned
 
+Apart from using `display: grid;` for the first time and playing with it a little bit to mainly centre my page and display some illustrative images, I designed my first mobile-first approach website and realized that this is the more intuitive way to build sites, because it's so much more simpler than a desktop first approach.
 
+I learned that I can put a negative padding on elements to make them overflow when at 100% width.
 
+Courtesy of [Vanza Setia](https://github.com/vanzasetia) and his advice I learned to use `em` units in media queries instead of pixels (such as @media (min-width: 64em) because it is simply the more reliable way to set these conditions across all devices as per [this article](https://zellwk.com/blog/media-query-units/).
 
-## <a name="assignment"></a>This is the Heading
+Also courtesy of [Vanza Setia](https://github.com/vanzasetia) and his code I learned that there are such things as `::before` and `::after` pseudo-elements and I'm looking forward to using them in my future project.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque eum autem ducimus corrupti suscipit ab est quia aperiam aliquid ipsam, numquam sunt provident error?
+And one last thing regarding learning from the best. Vanza's comment lead me to read up more in-depth regarding the use of anchors and buttons and I realized the destinction between them better. Buttons should be used when carrying out a function within the site, like an in-page calculator and anchors should be used to navigate around and they often lead to downloads, external links and so on.
+
+## <a name="#tools"></a>Tools used
